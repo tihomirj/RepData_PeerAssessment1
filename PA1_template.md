@@ -1,7 +1,15 @@
 # Reproducible Research: Peer Assessment 1
+by TJ
+
 
 ## Introduction
 This paper presents the analyses for the Peer Assessment 1 from Coursera's Reproducible Research Course. We use data from a personal activity monitoring device. This device collects data at 5 minute intervals throughout the day. The data includes the number of steps made by an anonymous person during 2 months (October and November 2012). The steps are recorded in 5 minutes intervals.  
+To prepare the environment we should load `knitr` and `ggplot2`.   
+
+```r
+library(knitr)
+library(ggplot2)
+```
 
 
 ## Loading and preprocessing the data
